@@ -11,6 +11,7 @@ This is a project I did for my Mobile Application Programming course at universi
 
 ## Mobile App Layout ! [](Images/HeartGuard_1.PNG) 
 ![HeartGuard_1](https://github.com/user-attachments/assets/d5257e73-684d-4cba-9f3a-e3272b8e6725)
+![HeartGuard_2](https://github.com/user-attachments/assets/60a580ff-6144-4d01-b42f-35734caa9fe9)
 
 
 
