@@ -7,4 +7,4 @@ This is a project I did for my Mobile Application Programming course at universi
 * Data was taken from Kaggle (https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset)
 * The Model using Random forest
 * For making this mobile app, I using Flutter Framework
-* I Using local API To Integrate mobile with model machine learning using flask 
+* I using local API To Integrate mobile app with model machine learning using flask 
