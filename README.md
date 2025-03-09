@@ -1,4 +1,4 @@
-# Karsten Portofolio
+# Karsten Errando Winoto Portofolio
 
 # [Project 1 : Heart Guard Mobile Application With Machine Learning Model](https://github.com/sixxkr/heartguard)
 
