@@ -9,7 +9,7 @@ This is a project I did for my Mobile Application Programming course at universi
 * For making this mobile app, I using flutter framework
 * I using local API To Integrate mobile app with model machine learning using flask
 
-## Mobile App Layout ! [](Images/HeartGuard_1.png) 
+## Mobile App Layout ! [](Images/HeartGuard_1.PNG) 
 
 
 
