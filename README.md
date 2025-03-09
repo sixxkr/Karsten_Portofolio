@@ -2,4 +2,6 @@
 
 # [Project 1 : Heart Guard Mobile Application With Machine Learning Model](https://github.com/sixxkr/heartguard)
 
-This is a project  I did for my Mobile Application Programming lecture in my university, Where i build a classification model  for a heart dieses with mobile application.
+This is a project I did for my Mobile Application Programming course at university, where I built a classification model for heart disease that was implemented into a mobile application.
+
+* Data was taken from Kaggle here(https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset)
