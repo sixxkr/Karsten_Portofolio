@@ -1,128 +1,105 @@
-# Karsten Errando Winoto Portofolio
+# Karsten Errando Winoto — Portfolio
 
-# [Project 1 : Heart Guard](https://github.com/sixxkr/heartguard)
+## 📌 Projects
 
-This is a project I did for my Mobile Application Programming course at university, where I built a classification model for heart disease that was implemented into a mobile application.
+- [Project 1: HeartGuard](#project-1-heart-guard)
+- [Project 2: Transformer Leopard Gecko](#project-2-transformer-leopard-gecko)
+- [Project 3: Cooperative App](#project-3-cooperative-app)
+- [Project 4: ECG Heart Disease Classification](#project-4-ecg-heart-disease-classification-with-deep-learning)
 
-- Data was taken from Kaggle (https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset)
-- The Model using Random forest
-- For making this mobile app, I using flutter framework
-- I using local API To Integrate mobile app with model machine learning using flask
+---
 
-## Mobile App Layout
+# [Project 1: HeartGuard](https://github.com/sixxkr/heartguard)
 
-![HeartGuard_1](https://github.com/user-attachments/assets/d5257e73-684d-4cba-9f3a-e3272b8e6725)&nbsp; &nbsp; &nbsp;
+This is a project I developed for my **Mobile Application Programming** course at university, where I built a mobile application that integrates a machine learning model for heart disease classification.
+
+- Dataset: [Kaggle Heart Disease Dataset](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset)
+- Model: Random Forest
+- Frontend: Flutter framework
+- Backend: Local API built with Flask (integrated with the ML model)
+
+## 📱 Mobile App Layout
+
+![HeartGuard_1](https://github.com/user-attachments/assets/d5257e73-684d-4cba-9f3a-e3272b8e6725)&nbsp;&nbsp;&nbsp;
 ![HeartGuard_2](https://github.com/user-attachments/assets/60a580ff-6144-4d01-b42f-35734caa9fe9)
 
-## Model Accuracy
+## 📊 Model Accuracy
 
-![HeartGuard_1](Images/HeartGuard_3.PNG)
+![HeartGuard_3](Images/HeartGuard_3.PNG)
 
-# [Project 2 : Transformer Leopard Gecko ](https://github.com/sixxkr/Transformer_Leopard-Gecko)
+---
 
-This is a project I did for my Pattern Recognition course at university, for my final project in this class.
+# [Project 2: Transformer Leopard Gecko](https://github.com/sixxkr/Transformer_Leopard-Gecko)
 
-- This model classifies images of Leopard Geckos into 3 morph categories:
+This is a project I completed for my **Pattern Recognition** course as the final project. The goal was to classify Leopard Gecko morphs using a Transformer-based model.
+
+- Classes:
   - `Boldstripe`
   - `Albino`
   - `Albino Boldstripe`
-- Dataset consists of ~60 images collected manually from the internet. Data was taken from google, instagram, etcera.
-- The model is built using a Transformer architecture.
-- Dataset is split into training and testing sets.
-- The model is trained for 100 epochs.
-- Achieved testing accuracy: **41%**
+- Dataset: ~60 images collected manually (Google, Instagram, etc.)
+- Architecture: Transformer
+- Training: 100 epochs
+- Achieved test accuracy: **41%**
 
-## 🗂️ Dataset
+## 🗂️ Dataset Samples
 
-- ✅ Total Images: ~60
-- ✅ Classes:
+- **Boldstripe**  
+  ![Boldstripe](Images/DS_GEKCO/BOLDSTRIPE/4.jpg)
 
-  - **Boldstripe** :
+- **Albino**  
+  ![Albino](Images/DS_GEKCO/ALBINO/11.jpg)
 
-    ![Boldstripe](Images/DS_GEKCO/BOLDSTRIPE/4.jpg)
-
-  - **Albino** :
-
-    ![Boldstripe](Images/DS_GEKCO/ALBINO/11.jpg)
-
-  - **Albino Boldstripe** :
-
-    ![Boldstripe](Images/DS_GEKCO/BOLDSTIPE_ALBINO/3.jpg)
+- **Albino Boldstripe**  
+  ![Albino Boldstripe](Images/DS_GEKCO/BOLDSTIPE_ALBINO/3.jpg)
 
 ## 🧪 Evaluation Results
 
-- **Test Accuracy**:
-
+- **Test Accuracy**  
   ![test](Images/hasil_testing.png)
 
-- **Train Accuracy and Loss**:
+- **Train Accuracy and Loss**  
+  ![train](Images/Training.png)
 
-  ![test](Images/Training.png)
+---
 
-# [Project 3 : App_Koperasi ](https://github.com/sixxkr/app_koperasi)
+# [Project 3: Cooperative App](https://github.com/sixxkr/app_koperasi)
 
-This is a mobile cooperative (koperasi) application I built during my internship at **Dua Kelinci**.  
-It helps factory employees browse products, add items to cart, check out, and track their transaction history.
+This is a mobile cooperative application I built during my internship at **Dua Kelinci**.  
+It allows factory employees to browse products, manage shopping carts, perform checkouts, and view transaction history.
 
-- Built with:
-  - **Flutter** for the mobile frontend (Android/iOS).
-  - **Flask** + **MySQL** for the backend API and database.
-- Core features:
-  - View product catalog with details.
-  - Add to cart, update quantities, remove items.
-  - Checkout flow (order summary, payment placeholder/integration-ready).
-  - Transaction history with order status.
-  - User authentication (login/logout) and session handling.
-- Architecture:
-  - RESTful API built in Flask.
-  - Persistent storage in MySQL.
-  - Frontend–backend communication via JSON over HTTPS.
+### 🔧 Tech Stack
 
-# Project 4 : ECG Heart Disease Classification with Deep Learning
+- **Frontend:** Flutter (Android/iOS)
+- **Backend:** Flask (RESTful API)
+- **Database:** MySQL
 
-This is a project I did for my Final Thesis at university, where I built a classification model for heart disease based on ECG signal amplitude using several deep learning methods.
+### ⚙️ Core Features
 
-## Data
+- Product catalog browsing with detailed views
+- Add to cart, update quantities, and remove items
+- Checkout flow with order summary and payment-ready integration
+- Transaction history with order status tracking
+- User authentication (login/logout, session management)
 
-Data was taken from Kaggle (https://www.kaggle.com/datasets/shayanfazeli/heartbeat)
+### 🏗️ Architecture
 
-![Dataset](Images/ecg_heartbeat_categorization%20Dataset.png)
+- RESTful API built with Flask
+- Persistent storage in MySQL
+- Frontend–backend communication via JSON over HTTPS
 
-## The models used are 4 types of deep learning architectures:
+---
 
-- CNN1D (Convolutional Neural Network)
+# [Project 4: ECG Heart Disease Classification with Deep Learning](https://github.com/sixxkr/ECG-Classification)
 
-- RNN (Recurrent Neural Network)
+This is my **Final Thesis project**, where I developed a classification model for heart disease based on ECG signal amplitudes using multiple deep learning methods.
 
-- LSTM (Long Short-Term Memory)
+## 📊 Dataset
 
-- GRU (Gated Recurrent Unit)
-
-## Model structure was designed :
-
-- **CNN1D** :
-  ![CNN1D](Images/arsitektur%20cnn.svg)
-- **RNN** :
-
-  ![RNN](Images/rnn.png)
-
-- **LSTM** :
-
-  ![LSTM](Images/LSTM.png)
-
-- **GRU** :
-
-  ![GRU](Images/GRU.png)
-
-## Exploratory Data Analysis (EDA)
-
-The dataset used in this project was taken from Kaggle and consists of two parts: training dataset and testing dataset.
-
-- Training set : 87,554 samples
-
-- Testing set : 21,892 samples
-
-- Each ECG signal has a duration of 1870 ms with a frequency of 120 Hz.
+- Source: [Kaggle - ECG Heartbeat Categorization Dataset](https://www.kaggle.com/datasets/shayanfazeli/heartbeat)
+- Training set: 87,554 samples
+- Testing set: 21,892 samples
+- Each ECG signal length: 1870 ms (120 Hz sampling rate)
 
 ### Class Distribution (before preprocessing)
 
@@ -135,28 +112,6 @@ The dataset used in this project was taken from Kaggle and consists of two parts
 | Fusion of ventricular and normal  | 641        | 162        |
 | **Total**                         | **87,554** | **21,892** |
 
-## Preprocessing
-
-Several preprocessing steps were applied before training:
-
-- Label Encoding
-
-  - Normal = 0
-
-  - Atrial Premature = 1
-
-  - Premature ventricular contraction = 2
-
-  - Fusion of ventricular and normal = 3
-
-  - Fusion of paced and normal = 4
-
-- Data Splitting
-
-  - Training set → split into 80% training and 20% validation
-
-  - Testing set → used as provided
-
 ### Class Distribution (after splitting)
 
 | Class                             | Training   | Validation | Testing    |
@@ -168,55 +123,68 @@ Several preprocessing steps were applied before training:
 | Fusion of ventricular and normal  | 496        | 145        | 162        |
 | **Total**                         | **70,043** | **17,511** | **21,892** |
 
-### Example visualization of heartbeat signals:
+### Signal Samples
 
-- **Normal** :
+- **Normal**  
   ![Normal](Images/0.svg)
-- **Atrial Premature** :
+
+- **Atrial Premature**  
   ![Atrial Premature](Images/1.svg)
-- **Premature ventricular contraction** :
-  ![Premature ventricular contraction](Images/2.svg)
-- **Fusion of ventricular and normal** :
-  ![Fusion of ventricular and normal](Images/3.svg)
-- **Fusion of paced and normal** :
-  ![Fusion of paced and normal](Images/4.svg)
 
-## Model Evaluation
+- **Premature Ventricular Contraction**  
+  ![PVC](Images/2.svg)
 
-The results are shown in the following figures :
+- **Fusion of Ventricular and Normal**  
+  ![Fusion V+N](Images/3.svg)
 
-### Training
+- **Fusion of Paced and Normal**  
+  ![Fusion P+N](Images/4.svg)
 
-- **CNN**
-  ![CNN](Images/cnn1d_1/train_val%20Loss.png)
-- **RNN**
-  ![RNN](Images/RNN1/train%20val%20loss.svg)
-- **LSTM**
-  ![LSTM](Images/lstm1/train%20loss_val.svg)
-- **GRU**
-  ![GRU](Images/GRU1/train%20val%20loss.svg)
+## 🏗️ Models Used
 
-### Testing
+- **CNN1D (Convolutional Neural Network)**  
+  ![CNN1D](Images/arsitektur%20cnn.svg)
 
-- **CNN**
+- **RNN (Recurrent Neural Network)**  
+  ![RNN](Images/rnn.png)
 
-  ![CNN](Images/cnn1d_1/cm.svg)
+- **LSTM (Long Short-Term Memory)**  
+  ![LSTM](Images/LSTM.png)
 
-- **RNN**
+- **GRU (Gated Recurrent Unit)**  
+  ![GRU](Images/GRU.png)
 
-  ![RNN](Images/RNN1/cm.svg)
+## 📈 Model Evaluation
 
-- **LSTM**
+### Training Performance
 
-  ![LSTM](Images/lstm1/cm.svg)
+- **CNN**  
+  ![CNN Train](Images/cnn1d_1/train_val%20Loss.png)
 
-- **GRU**
+- **RNN**  
+  ![RNN Train](Images/RNN1/train%20val%20loss.svg)
 
-  ![GRU](Images/GRU1/cm.svg)
+- **LSTM**  
+  ![LSTM Train](Images/lstm1/train%20loss_val.svg)
 
-### Results
+- **GRU**  
+  ![GRU Train](Images/GRU1/train%20val%20loss.svg)
 
-The evaluation results of each model using the test dataset are summarized below:
+### Testing Performance
+
+- **CNN**  
+  ![CNN CM](Images/cnn1d_1/cm.svg)
+
+- **RNN**  
+  ![RNN CM](Images/RNN1/cm.svg)
+
+- **LSTM**  
+  ![LSTM CM](Images/lstm1/cm.svg)
+
+- **GRU**  
+  ![GRU CM](Images/GRU1/cm.svg)
+
+### Final Results
 
 | Model | Accuracy | Precision | Recall | F1-Score |
 | ----- | -------- | --------- | ------ | -------- |
@@ -224,3 +192,7 @@ The evaluation results of each model using the test dataset are summarized below
 | RNN   | 0.83     | 0.17      | 0.20   | 0.18     |
 | LSTM  | 0.97     | 0.89      | 0.79   | 0.82     |
 | GRU   | 0.98     | 0.90      | 0.89   | 0.90     |
+
+**Key Insight:** CNN and GRU achieved the best performance with 98% accuracy, while RNN underperformed due to underfitting.
+
+---
