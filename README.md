@@ -53,11 +53,11 @@ This is a project I did for my Pattern Recognition course at university, for my 
 
 - **Test Accuracy**:
 
-  ![test](images/hasil_testing.png)
+  ![test](Images/hasil_testing.png)
 
 - **Train Accuracy and Loss**:
 
-  ![test](images/Training.png)
+  ![test](Images/Training.png)
 
 # [Project 3 : App_Koperasi ](https://github.com/sixxkr/app_koperasi)
 
@@ -199,12 +199,19 @@ The results are shown in the following figures :
 ### Testing
 
 - **CNN**
+
   ![CNN](Images/cnn1d_1/cm.svg)
+
 - **RNN**
+
   ![RNN](Images/RNN1/cm.svg)
+
 - **LSTM**
+
   ![LSTM](Images/lstm1/cm.svg)
+
 - **GRU**
+
   ![GRU](Images/GRU1/cm.svg)
 
 ### Results
